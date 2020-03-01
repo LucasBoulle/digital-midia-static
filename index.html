@@ -11,15 +11,14 @@
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="#">Menu</a></li>
-      <li><a href="#">Tópicos</a></li>
-      <li><a href="#">Fontes</a></li>
-      <li><a href="#">Sobre nós</a></li>
-    </ul>
-  </nav>
-
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>    
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+</script>
+  
+  <div id="nav-placeholder"></div>
   <section id="showcase">
     <div class="page-landing">
       <h1>Engenharia de software</h1>

@@ -22,7 +22,7 @@ nav ul {
     padding-top: 1rem;
 }
 
-nav ul a {
+a {
     display: block;
     text-align: center;
     font-size: 1.25rem;
@@ -42,8 +42,12 @@ nav ul a {
   padding: 0em 8.25em 6.5em 6.5em;
 }
 
+.text-topic {
+  margin-top: 2em;
+}
+
 .page-landing{
-  vertical-align: middle;
+  flex-direction: column;
   height: 100%;
   background-color: #333;
   color: white;
@@ -64,12 +68,12 @@ nav ul a {
         padding-top: 0;
     }
 
-    nav ul a {
+    a {
         font-size: 1rem;
         text-transform: uppercase;
     }
   
-    nav ul a:hover {
+    a:hover {
         opacity: 0.7;
     }
 }

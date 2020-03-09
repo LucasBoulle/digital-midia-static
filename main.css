@@ -31,10 +31,17 @@ a {
     padding: 1rem;
 }
 
+section img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
 #showcase {
     height: 100vh;
     background: #333;
 }
+
 
 .text {
   font-size: x-large;
